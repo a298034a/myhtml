@@ -1,9 +1,30 @@
 body {
     margin: 0;
     background-image: url("./images/bg.jpg");
+    font-size: 12px;
 }
 
 .box {
     width: 1000px;
     margin: 0 auto; /* 間距(auto)自動偵測必須搭配寬度(width) */
+}
+
+img {
+    display: block;
+}
+
+.btn {
+    float: left; /* 用 float 浮動區塊，覆蓋原來的 block */
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 150%; /* 等於 font-size:1.5em */
+}
+
+p {
+    font-size: 1em; /* <p>預設 font-size: 1em; */
 }
