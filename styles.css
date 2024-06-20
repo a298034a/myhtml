@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+    background-image: url("./images/bg.jpg");
+}
+
+.box {
+    width: 1000px;
+    margin: 0 auto; /* 間距(auto)自動偵測必須搭配寬度(width) */
+}
