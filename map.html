@@ -1,11 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hant-TW">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>交通資訊-基本網站練習</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
+
 <body>
-    
+    <!-- Banner 區 -->
+    <div class="box">
+        <!-- 因為 seo 的需求一定要寫 alt -->
+        <img src="./images/banner.png" alt="一些水果與義大利麵">
+    </div>
+    <!-- 按鈕區 -->
+    <div class="box">
+        <!-- alt + 滑鼠右鍵 可以同步輸入多行的內容 -->
+        <!-- 縮寫指令 div.btn*5>a 生成五個帶有 class btn 的 div，且內部包含一個 a 標籤-->
+        <div class="btn"><a href="./index.html"><img src="./images/btn_01.png" alt="連結至首頁"></a></div>
+        <div class="btn"><a href="./news.html"><img src="./images/btn_02.png" alt="連結至最新消息"></a></div>
+        <div class="btn"><a href="./foods.html"><img src="./images/btn_03.png" alt="連結至食譜影片"></a></div>
+        <div class="btn"><a href="./map.html"><img src="./images/btn_04.png" alt="連結至交通路線"></a></div>
+        <div class="btn"><a href="./booking.html"><img src="./images/btn_05.png" alt="連結至訂位表單"></a></div>
+    </div>
+    <!-- 內容區 -->
+    <div class="box">
+        <div class="col">
+            <h1>國立台北商業大學承曦樓</h1>
+            <address>
+                <p>地址：台北市中正區青島東路。紹興南街口</p>
+                <p>訂位專線：02-33222777</p>
+                <p>營業時間：08:00~22:00</p>
+            </address>
+        </div>
+        <div class="col">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.7421706545597!2d121.5222876762253!3d25.042822477810745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a9708f9d0e77%3A0xde4dfc6bbe7f2dac!2z5ZyL56uL5Y-w5YyX5ZWG5qWt5aSn5a245om_5pum5qiT!5e0!3m2!1szh-TW!2stw!4v1719214387176!5m2!1szh-TW!2stw" width="446" height="446" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    <!-- 頁尾區 -->
+    <div class="footer">
+        <small>Copyright © 2024 田田義式餐廳. design by <a href="https://www.w3schools.com/"
+                target="_blank">新尖兵設計公司</a></small>
+    </div>
 </body>
+
 </html>

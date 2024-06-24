@@ -1,11 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hant-TW">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>訂位-基本網站練習</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
+
 <body>
-    
+    <!-- Banner 區 -->
+    <div class="box">
+        <!-- 因為 seo 的需求一定要寫 alt -->
+        <img src="./images/banner.png" alt="一些水果與義大利麵">
+    </div>
+    <!-- 按鈕區 -->
+    <div class="box">
+        <!-- alt + 滑鼠右鍵 可以同步輸入多行的內容 -->
+        <!-- 縮寫指令 div.btn*5>a 生成五個帶有 class btn 的 div，且內部包含一個 a 標籤-->
+        <div class="btn"><a href="./index.html"><img src="./images/btn_01.png" alt="連結至首頁"></a></div>
+        <div class="btn"><a href="./news.html"><img src="./images/btn_02.png" alt="連結至最新消息"></a></div>
+        <div class="btn"><a href="./foods.html"><img src="./images/btn_03.png" alt="連結至食譜影片"></a></div>
+        <div class="btn"><a href="./map.html"><img src="./images/btn_04.png" alt="連結至交通路線"></a></div>
+        <div class="btn"><a href="./booking.html"><img src="./images/btn_05.png" alt="連結至訂位表單"></a></div>
+    </div>
+    <!-- 內容區 -->
+    <div class="box">
+        <!-- scrolling="no" 不顯示卷軸 -->
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScx-DQ_JBuTn652SlDUux1Vyf5O-6Oub_jrzZo4ugaIP_geJg/viewform?embedded=true" width="640" height="1120" frameborder="0" marginheight="0" marginwidth="0" scrolling="no">載入中…</iframe>
+    </div>
+    <!-- 頁尾區 -->
+    <div class="footer">
+        <small>Copyright © 2024 田田義式餐廳. design by <a href="https://www.w3schools.com/"
+                target="_blank">新尖兵設計公司</a></small>
+    </div>
 </body>
+
 </html>
